@@ -2,11 +2,11 @@
 This project was created as a simple solution to simulate ssl supported environments without modifying the target
 application that will run behind a reverse proxy on the live server.
 
-###Prerequisites
+### Prerequisites
 This project was built and tested with `node v16.14.2` and `npm 8.5.0`. Using the latest Node.js LTS version is recommended
 
 The reverse proxy can be accessed via any URL that points to `127.0.0.1` or `localhost` in the default settings.
-###Installation
+### Installation
 This project delivers a `package-lock.json` to ensure the right packages are installed.
 ```bash
 npm ci
@@ -17,12 +17,12 @@ If you want the latest packages instead of the tested ones use
 npm install
 ```
 
-###Startup
+### Startup
 ```bash
 npm run start
 ```
 
-###Config
+### Config
 The current default config is:
 ```json
 {
