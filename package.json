@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-reverse-proxy",
+  "version": "1.0.0",
+  "description": "A reverse proxy that supports SSL to simulate the live environment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SidiaDevelopment/nodejs-reverse-proxy.git"
+  },
+  "author": "Marvin Fischer <admin@sidia.net>",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
